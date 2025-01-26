@@ -3,12 +3,12 @@ import { Nav } from './Nav';
 import './Main.css';
 
 
-
-const API_KEY = "6c0721a9-2875-469c-b24b-8d1e247ea6d3";
+const API_KEY = process.env.REACT_APP_NEWS_API;
+console.log("API Key: ", API_KEY);
 const BASE_URL = "https://content.guardianapis.com/search?api-key=";
 
 
-export const Main = ()=>{
+export const Main=()=>{
 
     const [news,setNews] = useState([]);
     const [query,setQuery] = useState("India");
