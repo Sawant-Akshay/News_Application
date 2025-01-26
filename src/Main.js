@@ -3,8 +3,8 @@ import { Nav } from './Nav';
 import './Main.css';
 
 
+
 const API_KEY = process.env.REACT_APP_NEWS_API;
-console.log("API Key: ", API_KEY);
 const BASE_URL = "https://content.guardianapis.com/search?api-key=";
 
 
