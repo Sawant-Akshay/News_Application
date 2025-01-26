@@ -4,7 +4,7 @@ import './Main.css';
 
 
 
-const API_KEY = "6c0721a9-2875-469c-b24b-8d1e247ea6d3";
+const API_KEY = process.env.REACT_APP_NEWS_API;
 const BASE_URL = "https://content.guardianapis.com/search?api-key=";
 
 
